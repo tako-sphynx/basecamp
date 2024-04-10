@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "bpg";
+  src: url("./fonts/bpg-banner-caps-webfont.eot");
+  src: url("./fonts/bpg-banner-caps-webfont.eot@#iefix")
+      format("embedded-opentype"),
+    url("./fonts/bpg-banner-caps-webfont.svg") format("svg"),
+    url("./fonts/bpg-banner-caps-webfont.woff") format("woff"),
+    url("./fonts/bpg-banner-caps-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoMedium";
+  src: url("./fonts/NotoSansGeorgian-Medium.eot");
+  src: url("./fonts/NotoSansGeorgian-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/NotoSansGeorgian-Medium.woff2") format("woff2"),
+    url("./fonts/NotoSansGeorgian-Medium.woff") format("woff"),
+    url("./fonts/NotoSansGeorgian-Medium.svg#NotoSansGeorgian-Medium")
+      format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NotoRegular";
+  src: url("./fonts/NotoSansGeorgian-Regular.eot");
+  src: url("./fonts/NotoSansGeorgian-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/NotoSansGeorgian-Regular.woff2") format("woff2"),
+    url("./fonts/NotoSansGeorgian-Regular.woff") format("woff"),
+    url("./fonts/NotoSansGeorgian-Regular.svg#NotoSansGeorgian-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NotoSemiBold";
+  src: url("./fonts/NotoSansGeorgian-SemiBold.eot");
+  src: url("./fonts/NotoSansGeorgian-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/NotoSansGeorgian-SemiBold.woff2") format("woff2"),
+    url("./fonts/NotoSansGeorgian-SemiBold.woff") format("woff"),
+    url("./fonts/NotoSansGeorgian-SemiBold.svg#NotoSansGeorgian-SemiBold")
+      format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@screen sm {
+  .container {
+    max-width: 328px; /* Change max-width at medium screen sizes */
+  }
+}
+
+@screen md {
+  .container {
+    max-width: 928px; /* Change max-width at large screen sizes */
+  }
+}
+
+@screen lg {
+  .container {
+    max-width: 1128px; /* Change max-width at extra-large screen sizes */
+  }
+}
+
+.container {
+  max-width: 1312px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
